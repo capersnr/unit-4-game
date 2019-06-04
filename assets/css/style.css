@@ -34,3 +34,15 @@ div.gallery {
   .Instruction, .Instruction-Text{
     color: white;
       }
+
+  .gameStats{
+    color: white;
+  }
+
+  #computerScore-text{
+    width: 150px;
+    height: 100px;
+    background-color: gainsboro;
+    text-align: left;
+
+  }
