@@ -44,5 +44,32 @@ div.gallery {
     height: 100px;
     background-color: gainsboro;
     text-align: left;
+    margin: 0px 0px 10px 0px;
+
+  }
+
+  #totalScoretext{
+    width: 150px;
+    height: 100px;
+    background-color: gainsboro;
+    text-align: left;
+    margin: 0px 0px 10px 0px;
+
+
+  }
+
+  #winstext{
+    width: 150px;
+    height: 100px;
+    background-color: gainsboro;
+    text-align: left;
+    margin: 0px 0px 10px 0px;
+  }
+  #lossestext{
+    width: 150px;
+    height: 100px;
+    background-color: gainsboro;
+    text-align: left;
+    margin: 0px 0px 10px 0px;
 
   }

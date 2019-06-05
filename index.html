@@ -6,6 +6,8 @@
     <title>Crystal Collector</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <style>
 body {
@@ -28,9 +30,9 @@ body {
 
   
 <!--The section for the game instructions-->     
-<H1 class="Instruction">Instructions</H1>
-<p class="Instruction-Text">You will be given a random number at the start of the game.  There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.  You win the game by matching your total score to the ramdom number, you lose the game if your total score goes above the random number.</p>
-<p class="Instruction-Text">The value of each crystal is hidden from you until you click on it.  Each time when the game starts, the game will change the values of each crystal.</p>
+<h2 class="Instruction">Instructions</h2>
+<h2 class="Instruction-Text">You will be given a random number at the start of the game.  There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.  You win the game by matching your total score to the ramdom number, you lose the game if your total score goes above the random number.</h2>
+<h2 class="Instruction-Text">The value of each crystal is hidden from you until you click on it.  Each time when the game starts, the game will change the values of each crystal.</h2>
 <br>
 <!--The section for the game instructions-->
 
@@ -44,9 +46,9 @@ body {
 <br>
 <div>
 <h3 id ="computerScore-text">Computer:</h3>
-<h3 id ="userScore-text">User:</h3>
-<p id ="wins-text"></p>
-<p id ="losses-text"></p>
+<h3 id ="totalScoretext">Total:</h3>
+<h3 id ="winstext">Wins:</h3>
+<h3 id ="lossestext">Losses:</h3>
 </div>
 <!--The section for the game statistics-->
 
@@ -54,19 +56,19 @@ body {
 <!--The section for Crystal images-->
 <br>
 <div class="gallery">
-        <img src="assets/images/crystal-gold.jpg" alt="Cinque Terre" width="600" height="400">
+        <img src="assets/images/crystal-gold.jpg" id= "crystalGoldtext" alt="Cinque Terre" width="600" height="400">
       </div>
       
       <div class="gallery">
-          <img src="assets/images/crystal-green.jpg" alt="Forest" width="600" height="400">    
+          <img src="assets/images/crystal-green.jpg" id="crystalGreentext" alt="Forest" width="600" height="400">    
       </div>
       
       <div class="gallery">
-           <img src="assets/images/crystal-pink.jpg" alt="Northern Lights" width="600" height="400">
+           <img src="assets/images/crystal-pink.jpg" id="crystalPinktext" alt="Northern Lights" width="600" height="400">
         </div>
       
       <div class="gallery">
-          <img src="assets/images/crystal-purple.jpg" alt="Mountains" width="600" height="400">     
+          <img src="assets/images/crystal-purple.jpg" id="crystalPurpletext" alt="Mountains" width="600" height="400">     
       </div>
   <!--The section for Crystal Images-->
 
